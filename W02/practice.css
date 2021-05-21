@@ -1,0 +1,11 @@
+label:not(.label-radio) {
+font-weight: bold;
+display:block;
+}
+
+:out-of-range {
+background: #ffeb3b;
+}
+:in-range {
+background: #fff;
+}

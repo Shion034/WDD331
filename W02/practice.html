@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="../W02/practice.css">
+    <title>Document</title>
+</head>
+<body>
+<form method="post" action="#">
+    <h1>Join the Cool Kids Club</h1>
+    <p>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+    </p>
+    <p>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    </p>
+    <fieldset>
+        <legend>Receive a digest?</legend>
+        <p>
+            <input type="radio" id="daily" name="digest">
+            <label for="daily" class="label-radio">Daily</label>
+            <input type="radio" id="weekly" name="digest">
+            <label for="weekly" class="label-radio">Weekly</label>
+        </p>
+    </fieldset>
+    <button type="submit">Buy Tickets!</button>
+
+    <p>
+        <label for="picknum">Enter a number from 1-100</label>
+        <input type="number" min="1" max="100" id="picknum" name="picknum" step="1">
+    </p>
+</form>
+
+</body>
+</html>

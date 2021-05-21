@@ -1,0 +1,5 @@
+
+
+[title^="fieldset"]:nth-last-child(-n+3) p {
+    display: none;
+}
