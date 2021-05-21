@@ -1,0 +1,126 @@
+
+stylesheet.css
+  1:4   ×  Expected single space before "{"                                       block-opening-brace-space-before         
+  2:5   ×  Expected indentation of 2 spaces                                       indentation                              
+  2:22  ×  Expected "#FAEBD7" to be "#faebd7"                                     color-hex-case                           
+  2:22  ×  Expected single space after ":" with a single-line declaration         declaration-colon-space-after            
+  3:5   ×  Expected indentation of 2 spaces                                       indentation                              
+  4:3   ×  Expected indentation of 0 spaces                                       indentation                              
+  5:2   ×  Unexpected whitespace at end of line                                   no-eol-whitespace                        
+  6:3   ×  Expected indentation of 0 spaces                                       indentation                              
+  6:8   ×  Expected single space before "{"                                       block-opening-brace-space-before         
+  7:5   ×  Expected indentation of 2 spaces                                       indentation                              
+  8:5   ×  Expected indentation of 2 spaces                                       indentation                              
+  8:23  ×  Expected "#6495ED" to be "#6495ed"                                     color-hex-case                           
+  9:5   ×  Expected indentation of 2 spaces                                       indentation                              
+  9:13  ×  Expected single space after ":" with a single-line declaration         declaration-colon-space-after            
+ 10:3   ×  Expected indentation of 0 spaces                                       indentation                              
+ 11:3   ×  Expected empty line before comment                                     comment-empty-line-before                
+ 11:3   ×  Expected indentation of 0 spaces                                       indentation                              
+ 11:5   ×  Expected whitespace after "/*"                                         comment-whitespace-inside                
+ 11:82  ×  Expected whitespace before "*/"                                        comment-whitespace-inside                
+ 12:3   ×  Expected indentation of 0 spaces                                       indentation                              
+ 12:4   ×  Expected single space before "{"                                       block-opening-brace-space-before         
+ 13:5   ×  Expected indentation of 2 spaces                                       indentation                              
+ 14:5   ×  Expected indentation of 2 spaces                                       indentation                              
+ 15:5   ×  Expected indentation of 2 spaces                                       indentation                              
+ 15:33  ×  Expected "#FAEBD7" to be "#faebd7"                                     color-hex-case                           
+ 16:5   ×  Expected indentation of 2 spaces                                       indentation                              
+ 17:3   ×  Expected indentation of 0 spaces                                       indentation                              
+ 18:3   ×  Expected empty line before rule                                        rule-empty-line-before                   
+ 18:3   ×  Expected indentation of 0 spaces                                       indentation                              
+ 18:6   ×  Expected single space before "{"                                       block-opening-brace-space-before         
+ 19:5   ×  Expected indentation of 2 spaces                                       indentation                              
+ 20:5   ×  Expected indentation of 2 spaces                                       indentation                              
+ 20:12  ×  Expected "#FAEBD7" to be "#faebd7"                                     color-hex-case                           
+ 21:3   ×  Expected indentation of 0 spaces                                       indentation                              
+ 23:3   ×  Expected indentation of 0 spaces                                       indentation                              
+ 23:4   ×  Expected single space before "{"                                       block-opening-brace-space-before         
+ 25:3   ×  Expected indentation of 0 spaces                                       indentation                              
+ 26:3   ×  Expected empty line before rule                                        rule-empty-line-before                   
+ 26:3   ×  Expected indentation of 0 spaces                                       indentation                              
+ 26:6   ×  Expected single space before "{"                                       block-opening-brace-space-before         
+ 27:5   ×  Expected indentation of 2 spaces                                       indentation                              
+ 27:18  ×  Expected newline after ";" in a multi-line declaration block           declaration-block-semicolon-newline-after
+ 27:18  ×  Unexpected whitespace at end of line                                   no-eol-whitespace                        
+ 28:5   ×  Expected indentation of 2 spaces                                       indentation                              
+ 29:3   ×  Expected indentation of 0 spaces                                       indentation                              
+ 30:3   ×  Expected empty line before rule                                        rule-empty-line-before                   
+ 30:3   ×  Expected indentation of 0 spaces                                       indentation                              
+ 30:14  ×  Expected single space before "{"                                       block-opening-brace-space-before         
+ 31:5   ×  Expected indentation of 2 spaces                                       indentation                              
+ 31:12  ×  Expected "#DEB887" to be "#deb887"                                     color-hex-case                           
+ 31:20  ×  Expected newline after ";" in a multi-line declaration block           declaration-block-semicolon-newline-after
+ 31:20  ×  Unexpected whitespace at end of line                                   no-eol-whitespace                        
+ 32:5   ×  Expected indentation of 2 spaces                                       indentation                              
+ 33:3   ×  Expected indentation of 0 spaces                                       indentation                              
+ 34:3   ×  Expected empty line before rule                                        rule-empty-line-before                   
+ 34:3   ×  Expected indentation of 0 spaces                                       indentation                              
+ 34:12  ×  Expected single space before "{"                                       block-opening-brace-space-before         
+ 35:5   ×  Expected indentation of 2 spaces                                       indentation                              
+ 35:12  ×  Expected "#6495ED" to be "#6495ed"                                     color-hex-case                           
+ 36:5   ×  Expected indentation of 2 spaces                                       indentation                              
+ 37:3   ×  Expected indentation of 0 spaces                                       indentation                              
+ 38:3   ×  Expected empty line before comment                                     comment-empty-line-before                
+ 38:3   ×  Expected indentation of 0 spaces                                       indentation                              
+ 38:5   ×  Expected whitespace after "/*"                                         comment-whitespace-inside                
+ 38:77  ×  Expected whitespace before "*/"                                        comment-whitespace-inside                
+ 39:3   ×  Expected indentation of 0 spaces                                       indentation                              
+ 39:5   ×  Expected single space before "{"                                       block-opening-brace-space-before         
+ 40:5   ×  Expected indentation of 2 spaces                                       indentation                              
+ 41:5   ×  Expected indentation of 2 spaces                                       indentation                              
+ 41:12  ×  Expected "#FAEBD7" to be "#faebd7"                                     color-hex-case                           
+ 42:5   ×  Expected indentation of 2 spaces                                       indentation                              
+ 43:5   ×  Expected indentation of 2 spaces                                       indentation                              
+ 44:4   ×  Unexpected whitespace at end of line                                   no-eol-whitespace                        
+ 45:3   ×  Unexpected empty line before closing brace                             block-closing-brace-empty-line-before    
+ 45:3   ×  Expected indentation of 0 spaces                                       indentation                              
+ 46:3   ×  Expected empty line before rule                                        rule-empty-line-before                   
+ 46:3   ×  Expected indentation of 0 spaces                                       indentation                              
+ 47:5   ×  Expected indentation of 2 spaces                                       indentation                              
+ 48:3   ×  Expected indentation of 0 spaces                                       indentation                              
+ 49:3   ×  Expected selector "nav ul li a" to come before selector "h2 a:hover"   no-descending-specificity                
+ 49:3   ×  Expected empty line before rule                                        rule-empty-line-before                   
+ 49:3   ×  Expected indentation of 0 spaces                                       indentation                              
+ 49:13  ×  Expected single space before "{"                                       block-opening-brace-space-before         
+ 50:5   ×  Expected indentation of 2 spaces                                       indentation                              
+ 51:5   ×  Expected indentation of 2 spaces                                       indentation                              
+ 51:12  ×  Expected "#FAEBD7" to be "#faebd7"                                     color-hex-case                           
+ 52:3   ×  Expected indentation of 0 spaces                                       indentation                              
+ 53:3   ×  Expected empty line before rule                                        rule-empty-line-before                   
+ 53:3   ×  Expected indentation of 0 spaces                                       indentation                              
+ 53:17  ×  Expected single space before "{"                                       block-opening-brace-space-before         
+ 54:5   ×  Expected indentation of 2 spaces                                       indentation                              
+ 55:5   ×  Expected indentation of 2 spaces                                       indentation                              
+ 56:3   ×  Expected indentation of 0 spaces                                       indentation                              
+ 57:3   ×  Expected empty line before rule                                        rule-empty-line-before                   
+ 57:3   ×  Expected indentation of 0 spaces                                       indentation                              
+ 57:18  ×  Expected single space before "{"                                       block-opening-brace-space-before         
+ 58:5   ×  Expected indentation of 2 spaces                                       indentation                              
+ 58:12  ×  Expected "#DEB887" to be "#deb887"                                     color-hex-case                           
+ 59:3   ×  Expected indentation of 0 spaces                                       indentation                              
+ 61:3   ×  Expected single space before "{"                                       block-opening-brace-space-before         
+ 61:3   ×  Expected selector "a" to come before selector "h1 a"                   no-descending-specificity                
+ 61:3   ×  Expected selector "a" to come before selector "h2 a"                   no-descending-specificity                
+ 61:3   ×  Expected selector "a" to come before selector "h2 a:hover"             no-descending-specificity                
+ 61:3   ×  Expected selector "a" to come before selector "nav ul li a"            no-descending-specificity                
+ 61:3   ×  Expected indentation of 0 spaces                                       indentation                              
+ 62:5   ×  Expected indentation of 2 spaces                                       indentation                              
+ 62:12  ×  Expected "#6495ED" to be "#6495ed"                                     color-hex-case                           
+ 63:5   ×  Expected indentation of 2 spaces                                       indentation                              
+ 64:3   ×  Expected indentation of 0 spaces                                       indentation                              
+ 65:3   ×  Expected selector "a:hover" to come before selector "h2 a:hover"       no-descending-specificity                
+ 65:3   ×  Expected empty line before rule                                        rule-empty-line-before                   
+ 65:3   ×  Expected indentation of 0 spaces                                       indentation                              
+ 65:9   ×  Expected single space before "{"                                       block-opening-brace-space-before         
+ 66:5   ×  Expected indentation of 2 spaces                                       indentation                              
+ 67:3   ×  Expected indentation of 0 spaces                                       indentation                              
+ 68:1   ×  Expected empty line before comment                                     comment-empty-line-before                
+ 68:3   ×  Expected whitespace after "/*"                                         comment-whitespace-inside                
+ 68:79  ×  Expected whitespace before "*/"                                        comment-whitespace-inside                
+ 69:7   ×  Expected single space before "{"                                       block-opening-brace-space-before         
+ 75:1   ×  Expected empty line before rule                                        rule-empty-line-before                   
+ 75:3   ×  Expected single space before "{"                                       block-opening-brace-space-before         
+ 79:10  ×  Expected single space before "{"                                       block-opening-brace-space-before         
+ 83:1   ×  Unexpected missing end-of-source newline                               no-missing-end-of-source-newline
+
