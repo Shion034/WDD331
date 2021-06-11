@@ -1,0 +1,114 @@
+/*font-family: 'Italianno', cursive;
+font-family: 'Playfair Display', serif;
+
+ivory #FBFBEC
+cherry blossom pink #F4B3C2
+jet #2B2B2B
+middle green 47885E
+wite
+*/
+
+
+
+@media  only screen and (min-width:10em) {
+
+body{
+    background-color: ivory;
+    margin: 0 auto;
+}
+/*..............header....................................................*/
+.imagediv{
+    position:relative;
+    height:20em;
+    width: 100%;
+    border: solid 1px black;
+    margin-bottom: 2em;
+}
+.banner{
+    position: absolute;
+}
+.summary{
+    position:relative;
+    
+}
+h1{
+    font-family: 'Italianno', cursive;
+    font-size: 4em;
+    margin: 0 0 0 0.5em;
+    color: #2B2B2B;
+}
+h2{
+    font-family: 'Italianno', cursive;
+    font-size: 3em;
+    margin: 0 0 0 3em;
+    color: #2B2B2B;
+}
+/*....................................................................................*/
+
+h3{
+    font-family: 'Italianno', cursive;
+    font-size: 2em;
+}
+aside h3{
+    color: #47885E;
+}
+p{
+    font-family: 'Playfair Display', serif;
+    font-size: 1em;
+    margin-left: 1.5%;
+}
+
+
+/*....................................................................................*/
+
+#zen-preamble{
+    width:70%;
+    margin: 0 auto;
+    border-top: solid 2px #47885E;
+    border-bottom: solid 2px #47885E;
+    padding:1em;
+}
+.main{
+    max-width: 65%;
+    padding-left: 2%;
+}
+aside{
+    background-color: #F4B3C2;
+    padding:0.5em;
+    position: absolute;
+    top:44em;
+    right:1em;
+    width: 27%;
+}
+.wrapper ul{
+   list-style: none;
+   font-family: 'Playfair Display', serif;
+   font-size: 1.2em;
+   color: ivory;
+}
+.wrapper ul a{
+    text-decoration: none;
+    color: ivory;
+}
+.wrapper ul a:hover{
+    text-shadow: 2px 5px 5px  ivory;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #47885E;
+}
+
+/*..............footer....................................................*/
+footer{
+    display: flex;
+    background-color: #2B2B2B;
+    height: 15em;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+}
+footer a {
+    padding: 10px 10px 10px 10px;
+    color: ivory;
+}
+
+}
