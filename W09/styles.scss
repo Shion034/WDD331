@@ -100,6 +100,7 @@ form{
   border-bottom: 1px solid $dark-gray;
   text-align: center;
   padding:1em 0.3em;
+  font-size: 1em;
 
 }}
 main{
@@ -122,8 +123,8 @@ select{
   padding:2%;
   width: 90%;
   border-radius: 5px;
-  border:2px solid $med-gray;
-  background-color: $med-gray;
+  border:1px solid $med-gray;
+  background-color: $light-gray;
   height: 2.5em;
   .drop{
     background-color: white;
@@ -247,32 +248,20 @@ img {
 @media screen and(min-width:700px){
   
   body{
-    
-  .site-banner{
-    .site-banner__left{
-  margin-left: 2em;
-  order:0;
-}
-.icon-byui-logo::before{
-  margin-bottom: 3em;
-}
-form{
-  order:2;
-}
-.search{
-  order:1;
-  width:10%;
-  background-color: $body-font;
-  height: 2.5em;
 
-  #searchDesktop{
-    width:100%;}
+    header{
+
+      .site-banner__left{
+        margin-left: 3%;;
+      }
+    .idaho{
+      font-size: 1.5em;
+      padding-left: 3%;
+      text-align: left;
+      border:none;
+    }
+
   }
-  .site-banner__right{
-
-  order:2;
-   
-}}
 main{
   display: grid;
   grid-template-columns:1fr 1fr 1fr 1.5em ;
@@ -304,9 +293,15 @@ select{
   grid-row: 4/5;
 }
 #news-container{
-  grid-column: 1/4;
+  grid-column: 1/3;
   grid-row: 5/7;
-}
-}
-}
-}
+  .news{
+    display: flex;
+  img{
+    display: inline;
+    width: 20%;
+    height: 15%;
+    margin: 1em;
+  }}
+
+}}}}
