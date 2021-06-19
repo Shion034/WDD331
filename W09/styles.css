@@ -1117,6 +1117,7 @@ body header .idaho {
 
 body main {
   margin: 0;
+  font-size: 1rem;
 }
 
 body main .hero-img {
@@ -1156,7 +1157,6 @@ body main select .drop {
 
 body main a {
   text-decoration: none;
-  font-weight: bold;
   color: #0076b6;
 }
 
@@ -1202,6 +1202,7 @@ body main #dates .page-N {
   -webkit-box-pack: left;
       -ms-flex-pack: left;
           justify-content: left;
+  font-size: 0.8rem;
 }
 
 body main #dates .page-N .bold {
@@ -1287,10 +1288,12 @@ body .sr-only {
   body main {
     display: -ms-grid;
     display: grid;
+    max-width: 1000px;
     -ms-grid-columns: 1fr 1fr 1fr 1.5em;
         grid-template-columns: 1fr 1fr 1fr 1.5em;
     -ms-grid-rows: 4em 2em 1fr 1fr;
         grid-template-rows: 4em 2em 1fr 1fr;
+    margin: 0 auto;
   }
   body main .hero-img {
     -ms-grid-column: 1;
