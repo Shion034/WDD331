@@ -1,5 +1,10 @@
 body {
-  width: 0 auto;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #292b2c;
+  background-color: #fff;
 }
 
 nav {
@@ -75,5 +80,86 @@ nav .dropdown-menu li:hover {
 /*----nav end----*/
 .jumbotron {
   text-align: center;
+}
+
+#mainCarousel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+#mainCarousel .img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+#mainCarousel .d-block {
+  display: block;
+}
+
+#mainCarousel .carousel-caption {
+  position: absolute;
+  z-index: 10;
+  color: #505050;
+  right: 15%;
+  left: 35%;
+  bottom: 20px;
+  color: white;
+}
+
+#mainCarousel h5 {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+#mainCarousel p {
+  margin: 0;
+}
+
+.col {
+  -ms-flex-preferred-size: 0;
+      flex-basis: 0;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  max-width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  position: relative;
+}
+
+/*-------Section Dark----------*/
+.sectionDark {
+  background-color: #cccccc;
+  padding: 2rem;
+}
+
+.sectionDark .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sectionDark .kfs {
+  max-width: 150px;
+}
+
+.col-md-6 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.offset-md-2 {
+  margin-left: 16%;
 }
 /*# sourceMappingURL=style.css.map */

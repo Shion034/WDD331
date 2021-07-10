@@ -1,5 +1,10 @@
-body{
-  width:0 auto;
+body {
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #292b2c;
+    background-color: #fff;
 }
 nav{
   width: 100%;
@@ -51,5 +56,65 @@ li{
 }}}/*----nav end----*/
 .jumbotron{
     text-align: center;
+}
+
+
+#mainCarousel{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    position: relative;
+
+    .img-fluid{
+    max-width: 100%;
+    height:auto;
+}
+
+.d-block{
+    display:block;
+}
+.carousel-caption{
+        position: absolute;
+        z-index: 10;
+        color: rgb(80, 80, 80);
+        right: 15%;
+        left: 35%;
+        bottom:20px;
+        color: white;
+    }
+    h5{
+        font-size: 1.5em;
+        margin: 0;
+    }
+    p{
+        margin: 0;
+    }
+}
+.col {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    position: relative;
+}
+/*-------Section Dark----------*/
+.sectionDark {
+    background-color: #cccccc;
+    padding: 2rem;
+    .row{
+        display: flex;
+    }
+    .kfs{
+        max-width: 150px;
+    }
+
+}
+.col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.offset-md-2{
+    margin-left: 16%;
 }
 
