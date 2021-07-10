@@ -1,3 +1,10 @@
-body {
-  background-color: #dddddd;
+body{
+  width:0 auto;
+}
+nav{
+  width: 100%;
+  background-color: black;
+}
+.nav-link{
+  text-decoration: none;
 }
