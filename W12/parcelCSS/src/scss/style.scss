@@ -1,0 +1,55 @@
+body{
+  width:0 auto;
+}
+nav{
+  width: 100%;
+  background-color: #1F202B;
+  display: flex;
+ .collapse{
+     display: flex;
+}
+.container-fluid{
+    display: flex;
+}
+.navbar-nav{
+    display: flex;
+}
+.navbar-brand{
+    margin: 16px;
+    font-size: 1.3rem;
+    color: white;
+    text-decoration: none;
+    white-space: nowrap;
+}
+li{
+ list-style: none;
+ margin:1.5% 3% 3% 3%;
+ a{
+    color: rgba(255,255,255,.55);
+ }
+  a:hover{
+        color: rgba(255,255,255,.75);
+    }
+.active{
+    color:white;
+}
+}/*----li end----*/
+.navbar-toggler{
+  display:none;
+}
+.nav-link,.navbar-brand{
+  text-decoration: none;
+}
+.dropdown-menu {
+ li{
+    height: 0;
+    overflow: hidden;
+}
+ li:hover{
+    height: 2rem;
+    overflow:visible;
+}}}/*----nav end----*/
+.jumbotron{
+    text-align: center;
+}
+

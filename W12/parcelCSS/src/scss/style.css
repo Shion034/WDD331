@@ -1,0 +1,79 @@
+body {
+  width: 0 auto;
+}
+
+nav {
+  width: 100%;
+  background-color: #1F202B;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /*----li end----*/
+}
+
+nav .collapse {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav .container-fluid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav .navbar-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav .navbar-brand {
+  margin: 16px;
+  font-size: 1.3rem;
+  color: white;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+nav li {
+  list-style: none;
+  margin: 1.5% 3% 3% 3%;
+}
+
+nav li a {
+  color: rgba(255, 255, 255, 0.55);
+}
+
+nav li a:hover {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+nav li .active {
+  color: white;
+}
+
+nav .navbar-toggler {
+  display: none;
+}
+
+nav .nav-link, nav .navbar-brand {
+  text-decoration: none;
+}
+
+nav .dropdown-menu li {
+  height: 0;
+  overflow: hidden;
+}
+
+nav .dropdown-menu li:hover {
+  height: 2rem;
+  overflow: visible;
+}
+
+/*----nav end----*/
+.jumbotron {
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */

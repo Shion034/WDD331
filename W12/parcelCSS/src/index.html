@@ -6,13 +6,13 @@
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- change the path below to scss/styles.scss to use SASS -->
-    <link rel="stylesheet" href="scss/styles.scss" />
+    <link rel="stylesheet" href="scss/style.css" />
   </head>
 
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">SKATE</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
           aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -23,27 +23,73 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#">Videos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link" href="#">Photos</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                 data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown link
+                Swag
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><a class="dropdown-item" href="#">Pants</a></li>
+                <li><a class="dropdown-item" href="#">Shirts</a></li>
+                <li><a class="dropdown-item" href="#">Apparel</a></li>
               </ul>
             </li>
           </ul>
         </div>
       </div>
     </nav>
+    <div class="section light">
+      <div class="row">
+        <div class="col-sm-12">
+        <div class="jumbotron jumborton-fluid">
+          <h1 class="display-3">Welcome to my World</h1>
+          <p class="lead">Total Radness since 1987</p>
+        </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col"></div>
+        <div class="col-sm-12 col-md-6">
+          <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/board.jpg" class="d-block w-100" alt="first slide">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/tipsolahraga.jpg" class="d-block w-100" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/longboard.jpg" class="d-block w-100" alt="Third slide">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="col"></div>
+      </div>
+    </div>
+    
+
+
+
+
+
+
     </section>
     <script src="js/index.js"></script>
+    <script src="js/bootstrap.js"></script>
   </body>
 </html>
