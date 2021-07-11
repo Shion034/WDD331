@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
   font-size: 1rem;
@@ -82,6 +83,11 @@ nav .dropdown-menu li:hover {
   text-align: center;
 }
 
+.img-fluid {
+  max-width: 90%;
+  height: auto;
+}
+
 #mainCarousel {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -94,11 +100,6 @@ nav .dropdown-menu li:hover {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
-}
-
-#mainCarousel .img-fluid {
-  max-width: 100%;
-  height: auto;
 }
 
 #mainCarousel .d-block {
@@ -136,20 +137,34 @@ nav .dropdown-menu li:hover {
   position: relative;
 }
 
-/*-------Section Dark----------*/
-.sectionDark {
-  background-color: #cccccc;
-  padding: 2rem;
+/*-------------------もろもろ--------------------------*/
+.col-sm-12 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+  max-width: 100%;
 }
 
-.sectionDark .row {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.col-md-1 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 8%;
+          flex: 0 0 8%;
+  max-width: 8%;
+  padding: 0 5% 0 5%;
 }
 
-.sectionDark .kfs {
-  max-width: 150px;
+.col-md-3 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 25%;
+          flex: 0 0 25%;
+  max-width: 25%;
+}
+
+.col-md-9 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 75%;
+          flex: 0 0 75%;
+  max-width: 75%;
 }
 
 .col-md-6 {
@@ -159,7 +174,179 @@ nav .dropdown-menu li:hover {
   max-width: 50%;
 }
 
+.col-lg-3 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 25%;
+          flex: 0 0 25%;
+  max-width: 25%;
+}
+
+.col-lg-4 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 33%;
+          flex: 0 0 33%;
+  max-width: 33%;
+}
+
+.col-lg-9 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 75%;
+          flex: 0 0 75%;
+  max-width: 75%;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.btn {
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-align: center;
+  border: none;
+  padding: 2%;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  -webkit-box-shadow: 0 0 5px #c0c0c0;
+          box-shadow: 0 0 5px #c0c0c0;
+}
+
+/*-------Section Dark----------*/
+.sectionDark {
+  background-color: #cccccc;
+  padding: 2rem;
+}
+
+.sectionDark .kfs {
+  max-width: 150px;
+}
+
+.coolStuffWrapper {
+  margin-top: 20px;
+}
+
+button.coolStuffBtn {
+  background-color: red;
+  color: #ffffff;
+  display: block;
+  margin: 0 auto;
+}
+
 .offset-md-2 {
   margin-left: 16%;
+}
+
+/*------------model--------------------*/
+.modal-dialog {
+  width: 60%;
+}
+
+.modal-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.btn-close {
+  margin: 3%;
+}
+
+h5.modal-title {
+  margin: auto;
+}
+
+.form-label {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.modalFormWrapper {
+  padding: 2rem;
+}
+
+.btn-secondary {
+  font-size: 1rem;
+  padding: 2%;
+  margin: 3%;
+}
+
+/*---------------section light------------------*/
+.sectionLight {
+  background-color: #eceeef;
+  padding: 2rem;
+}
+
+.imgCenter {
+  display: block;
+  margin: auto;
+}
+
+.btn-danger {
+  color: #fff;
+  background-color: #d9534f;
+  border-color: #d9534f;
+}
+
+.btnCenter {
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  width: 54%;
+}
+
+.ligntimg {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+/*-----------footer---------------*/
+.bg-inverse {
+  background-color: #292b2c !important;
+}
+
+.size {
+  width: 200px;
+}
+
+.footerimg {
+  padding: 10px;
+}
+
+.socialWrapper {
+  margin: auto;
+}
+
+.socialWrapper a {
+  text-decoration: none;
+}
+
+.fa-facebook-square {
+  color: #3b5998;
+}
+
+.fa-google-plus-square {
+  color: #c32F10;
+}
+
+.fa-instagram {
+  color: #ffffff;
+}
+
+.fa {
+  margin: 10px;
 }
 /*# sourceMappingURL=style.css.map */
